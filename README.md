@@ -2,7 +2,7 @@
 Программа преобразует найденные в заданном каталоге xml файлы в формате src.xml в формат dst.xml. Результат сохраняет в отдельном каталоге и отправляет по HTTP методом POST.
 
 # Src.xml:
-<code>
+```sh
 <?xml version="1.0" encoding="utf-8"?>
 <Form>
     <Groups>
@@ -80,9 +80,10 @@
         </Group>
     </Groups>
 </Form>
-</code>
+```
 	
 # Dst.xml:
+```sh
 <?xml version="1.0" encoding="utf-8"?>
 <Data>
 	<Account name="MY_ACC" required="true" digitOnly="true" value="12345678"/>
@@ -95,3 +96,4 @@
 	<Sum name="COMM_SUM" readOnly="true" value="2.50"/>
 	<Sum name="TOTAL_SUM" required="true" value="102.50"/>
 </Data>
+```
