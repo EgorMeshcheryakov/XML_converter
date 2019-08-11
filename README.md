@@ -2,7 +2,7 @@
 Программа преобразует найденные в заданном каталоге xml файлы в формате src.xml в формат dst.xml. Результат сохраняет в отдельном каталоге и отправляет по HTTP методом POST.
 
 # Src.xml:
-<?xml version="1.0" encoding="utf-8"?>
+"<?xml version="1.0" encoding="utf-8"?>
 <Form>
     <Groups>
         <Group>
@@ -78,7 +78,7 @@
             </Groups>
         </Group>
     </Groups>
-</Form>
+</Form>"
 
 # Dst.xml:
 <?xml version="1.0" encoding="utf-8"?>
